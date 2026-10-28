@@ -9,19 +9,23 @@
     ".NETCoreApp,Version=v10.0/win-x64": {
       "InfernoUO/1.0.0": {
         "dependencies": {
-          "ClassicUO.Assets": "1.0.0",
-          "ClassicUO.Renderer": "1.0.0",
-          "ClassicUO.Utility": "1.0.0",
           "FNA": "1.0.0",
+          "Inferno.Api": "1.0.0",
+          "Inferno.Assets": "1.0.0",
+          "Inferno.Renderer": "1.0.0",
+          "Inferno.Utility": "1.0.0",
           "IronPython": "3.4.2",
           "Microsoft.CodeAnalysis.CSharp.Scripting": "4.12.0",
           "Microsoft.Data.Sqlite": "10.0.10",
           "Myra.FNA.Core": "1.5.10",
           "Vosk": "0.3.38",
-          "cuoapi": "1.0.0",
-          "cuoapi.Reference": "1.3.0.0",
           "FNA.Reference": "26.8.0.0",
           "FontStashSharp.FNA.Reference": "1.5.4.0",
+          "Inferno.Api.Reference": "1.3.0.0",
+          "Inferno.Assets.Reference": "1.1.0.0",
+          "Inferno.IO.Reference": "1.1.0.0",
+          "Inferno.Renderer.Reference": "1.1.0.0",
+          "Inferno.Utility.Reference": "1.1.0.0",
           "XNAssets.FNA.Reference": "0.8.2.0",
           "XNAssets.FontStashSharp.FNA.Reference": "0.8.2.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "10.0.13"
@@ -1175,66 +1179,6 @@
           }
         }
       },
-      "ClassicUO.Assets/1.0.0": {
-        "dependencies": {
-          "ClassicUO.IO": "1.0.0",
-          "ClassicUO.Utility": "1.0.0",
-          "FontStashSharp.FNA": "1.5.4",
-          "SixLabors.Fonts": "2.1.3"
-        },
-        "runtime": {
-          "ClassicUO.Assets.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
-      },
-      "ClassicUO.IO/1.0.0": {
-        "dependencies": {
-          "ClassicUO.Utility": "1.0.0",
-          "FNA": "1.0.0",
-          "MP3Sharp": "1.0.0"
-        },
-        "runtime": {
-          "ClassicUO.IO.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
-      },
-      "ClassicUO.Renderer/1.0.0": {
-        "dependencies": {
-          "ClassicUO.Assets": "1.0.0",
-          "ClassicUO.Utility": "1.0.0",
-          "FNA": "1.0.0",
-          "FontStashSharp.FNA": "1.5.4"
-        },
-        "runtime": {
-          "ClassicUO.Renderer.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
-      },
-      "ClassicUO.Utility/1.0.0": {
-        "dependencies": {
-          "FNA": "1.0.0",
-          "SixLabors.ImageSharp": "3.1.11"
-        },
-        "runtime": {
-          "ClassicUO.Utility.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
-          }
-        }
-      },
-      "cuoapi/1.0.0": {
-        "runtime": {
-          "cuoapi.dll": {
-            "fileVersion": "0.0.0.0"
-          }
-        }
-      },
       "FNA/1.0.0": {
         "runtime": {
           "FNA.dll": {
@@ -1252,6 +1196,62 @@
         },
         "runtime": {
           "FontStashSharp.FNA.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Inferno.Api/1.0.0": {
+        "runtime": {
+          "Inferno.Api.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Inferno.Assets/1.0.0": {
+        "dependencies": {
+          "FontStashSharp.FNA": "1.5.4",
+          "Inferno.IO": "1.0.0",
+          "Inferno.Utility": "1.0.0",
+          "SixLabors.Fonts": "2.1.3"
+        },
+        "runtime": {
+          "Inferno.Assets.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Inferno.IO/1.0.0": {
+        "dependencies": {
+          "FNA": "1.0.0",
+          "Inferno.Utility": "1.0.0",
+          "MP3Sharp": "1.0.0"
+        },
+        "runtime": {
+          "Inferno.IO.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Inferno.Renderer/1.0.0": {
+        "dependencies": {
+          "FNA": "1.0.0",
+          "FontStashSharp.FNA": "1.5.4",
+          "Inferno.Assets": "1.0.0",
+          "Inferno.Utility": "1.0.0"
+        },
+        "runtime": {
+          "Inferno.Renderer.dll": {
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Inferno.Utility/1.0.0": {
+        "dependencies": {
+          "FNA": "1.0.0",
+          "SixLabors.ImageSharp": "3.1.11"
+        },
+        "runtime": {
+          "Inferno.Utility.dll": {
             "fileVersion": "0.0.0.0"
           }
         }
@@ -1301,14 +1301,6 @@
           }
         }
       },
-      "cuoapi.Reference/1.3.0.0": {
-        "runtime": {
-          "cuoapi.dll": {
-            "assemblyVersion": "1.3.0.0",
-            "fileVersion": "1.3.0.0"
-          }
-        }
-      },
       "FNA.Reference/26.8.0.0": {
         "runtime": {
           "FNA.dll": {
@@ -1322,6 +1314,46 @@
           "FontStashSharp.FNA.dll": {
             "assemblyVersion": "1.5.4.0",
             "fileVersion": "1.5.4.0"
+          }
+        }
+      },
+      "Inferno.Api.Reference/1.3.0.0": {
+        "runtime": {
+          "Inferno.Api.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "Inferno.Assets.Reference/1.1.0.0": {
+        "runtime": {
+          "Inferno.Assets.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Inferno.IO.Reference/1.1.0.0": {
+        "runtime": {
+          "Inferno.IO.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Inferno.Renderer.Reference/1.1.0.0": {
+        "runtime": {
+          "Inferno.Renderer.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "Inferno.Utility.Reference/1.1.0.0": {
+        "runtime": {
+          "Inferno.Utility.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
@@ -1522,37 +1554,37 @@
       "path": "vosk/0.3.38",
       "hashPath": "vosk.0.3.38.nupkg.sha512"
     },
-    "ClassicUO.Assets/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ClassicUO.IO/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ClassicUO.Renderer/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ClassicUO.Utility/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "cuoapi/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "FNA/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "FontStashSharp.FNA/1.5.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Assets/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.IO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Renderer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1577,17 +1609,37 @@
       "serviceable": false,
       "sha512": ""
     },
-    "cuoapi.Reference/1.3.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
     "FNA.Reference/26.8.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "FontStashSharp.FNA.Reference/1.5.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Api.Reference/1.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Assets.Reference/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.IO.Reference/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Renderer.Reference/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Inferno.Utility.Reference/1.1.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

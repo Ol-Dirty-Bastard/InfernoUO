@@ -19,7 +19,7 @@
     "X": 1920,
     "Y": 1009
   },
-  "is_win_maximized": false,
+  "is_win_maximized": true,
   "saveaccount": true,
   "autologin": true,
   "reconnect": true,
