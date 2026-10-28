@@ -1,6 +1,6 @@
 # Inferno client
-version 2026.10.28.2204
-base df104edbe3a4f26fd6bffd8893331482d4a3d6bf
+version 2026.10.28.2205
+base 0bc7195b6cb967337fbec04323e289a59533ff00
 582684c68564516ad2ecdfe14534b2ff80fce67bba55c554f1b65be69e4e9360	20776	-	Accessibility.dll
 0dd042230bfc906689e257283e6e04d457a0e6a6d5953cb3609e7a0eb9e59106	13312	-	AssetManagementBase.dll
 6269e4fcc0968f5a8bd3e5daebe2495f5237cfdb6a3ea64bce4250dba5fa30d8	46168	-	Cyotek.Drawing.BitmapFont.dll
