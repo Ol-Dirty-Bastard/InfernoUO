@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "tree_to_stumps": true,
+  "cave_border": true,
+  "tile_grid": true,
+  "hide_vegetation": true
+}
