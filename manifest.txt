@@ -1,6 +1,6 @@
 # Inferno client
-version 2026.11.12.2202
-base 5a46eb12d3dd951444a53f5cba2c8a11fd3dcb4d
+version 2026.11.13.0714
+base 63fa3d543dbf45b0f9a719e701920acfab03fb05
 582684c68564516ad2ecdfe14534b2ff80fce67bba55c554f1b65be69e4e9360	20776	-	Accessibility.dll
 0dd042230bfc906689e257283e6e04d457a0e6a6d5953cb3609e7a0eb9e59106	13312	-	AssetManagementBase.dll
 6269e4fcc0968f5a8bd3e5daebe2495f5237cfdb6a3ea64bce4250dba5fa30d8	46168	-	Cyotek.Drawing.BitmapFont.dll
@@ -396,7 +396,7 @@ e18fe2b36e6a91c4c8c1b3b9df786924380294cf7fe7ed9ef6c8f1af12316c52	8704	-	Inferno.
 ec10b4ffbcc7552bfb2cc6ebbc1c3b58518cea2eabff3f510a891dadc2706e7a	309760	-	Inferno.Renderer.dll
 fefadd44e50c408b4ad3fb29252c907530a731d22eff26cae0c44c30ae257f8a	129536	-	Inferno.Utility.dll
 6a743a9575c78b950257a590a3c384de500f7b6c393286ae449d9213dac40878	32579	-	InfernoLauncher.deps.json
-825c510acbf401b6dd1ea586aabc3297b7decd2c8e67c020dfeeb462e8bd3ce0	129536	-	InfernoLauncher.dll
+735e543295d883497bdc3d163534e781b2389cf72b50073d4352d43b2cc00325	130560	-	InfernoLauncher.dll
 25abaad79ff2ad2ea4ffda69f8566ec568d873523e8e282db13b1a2f11922d0c	228864	-	InfernoLauncher.exe
 bff8e794f100e25611d9f3d1cdf7875bf3a4e840908ea539a7284fffe9c22bea	529	-	InfernoLauncher.runtimeconfig.json
 56c179e458d95fff66ece71d5debcb7fcb107fc03873988fbd1cefed5d0e8e1c	58326	-	InfernoUO.deps.json
